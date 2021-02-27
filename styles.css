@@ -63,7 +63,19 @@ html{
   .bg-cover {
     background-size: cover !important;
   }
-
+  .ham{
+    float: right;
+    margin-right: 1rem;
+    height: auto;
+    display: none;
+  }
+.ham>div{
+    width: 2.5rem;
+    height: 0.3rem;
+    background-color: rgb(156, 71, 236);
+    margin: 6px 0;
+  
+}
 #nav-ui a:hover{
   border-bottom: 2px solid pink;
   color: pink;
@@ -670,6 +682,9 @@ form:after{
   }
   .footer-distributed{
     flex-direction: column;
+  }
+  .ham{
+    display: block;
   }
   .contact-form{
     width: 100%;
