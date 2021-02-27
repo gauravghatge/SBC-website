@@ -701,10 +701,18 @@ form:after{
     background-color: transparent;
   }
   .add-info{
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+  }
+  .footer-down{
+    margin: auto;
+  }
+  .footer-icons{
+    margin: auto;
+    margin-top: 0.5rem;
   }
 }
 
